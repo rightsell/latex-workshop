@@ -3,7 +3,7 @@
 ## Overview
 
 - What is LaTeX and why do we want to use it?
-- Citation management
+- Citation management.
 - Collaboration with GitHub
 
 ## LaTeX
@@ -22,4 +22,6 @@
 
 The following are resources I learned from and used to prepare this workshop.
 
-Overleaf documentation
+[Overleaf documentation](https://www.overleaf.com/learn)
+
+
