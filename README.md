@@ -8,7 +8,12 @@
 
 ## LaTeX
 
-
+LaTeX is a typesetting system that produces really beautiful PDF documents. 
+It has a lot of benefits over other word processing software: 
+- Cross-platform, free, and open source 
+- Use any text editor you like 
+- Easy and fast reference management 
+- Focus on writing content, not formatting 
 
 ## Citation Management
 
