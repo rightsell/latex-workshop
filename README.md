@@ -20,4 +20,6 @@
 
 ## Helpful Links
 
+The following are resources I learned from and used to prepare this workshop.
 
+Overleaf documentation
