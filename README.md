@@ -3,7 +3,7 @@
 ## Overview
 
 - What is LaTeX and why do we want to use it?
-- Citation management.
+- Citation management
 - Collaboration with GitHub
 
 ## LaTeX
@@ -14,6 +14,7 @@ It has a lot of benefits over other word processing software:
 - Use any text editor you like 
 - Easy and fast reference management 
 - Focus on writing content, not formatting 
+- Re-submitting an article to a different journal? No problem, just download that journal's LaTeX style, change one line in your document, and re-compile
 
 ### Editors
 
