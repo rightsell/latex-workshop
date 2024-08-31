@@ -10,11 +10,12 @@
 
 LaTeX is a typesetting system that produces really beautiful PDF documents. 
 It has a lot of benefits over other word processing software: 
-- Cross-platform, free, and open source 
-- Use any text editor you like 
-- Easy and fast reference management 
-- Focus on writing content, not formatting 
-- Re-submitting an article to a different journal? No problem, just download that journal's LaTeX style, change one line in your document, and re-compile
+- Cross-platform, free, and open source. 
+- Use any text editor you like. 
+- Easy and fast reference management. 
+- Focus on writing content, not formatting. 
+- Easy handling of mathematical notation and equations. 
+- Re-submitting an article to a different journal? No problem, just download that journal's LaTeX style, change one line in your document, and re-compile.
 
 ### Editors
 
