@@ -43,7 +43,9 @@ Full featured citation managers such as [Zotero](https://www.zotero.org/) can be
 
 ## Collaboration with GitHub
 
+GitHub is a repository host and frontend for the version control software Git. Used to manage multiple collaborators on large software projects, it's more than adequate to handle LaTeX documents. 
 
+Handling your documents through a GitHub repository gives you an off-site backup, easy tracking of changes and revisions, simple handling of merge conflicts, and access to prior versions of your document.
 
 ## Helpful Links
 
