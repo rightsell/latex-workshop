@@ -37,7 +37,9 @@ It has a lot of benefits over other word processing software:
 
 ## Citation Management
 
-
+LaTeX comes with BibTeX, which stores references as easy to read entries in a plain text file.
+BibTeX files can be exported from libraries and journal websites. 
+Full featured citation managers such as [Zotero](https://www.zotero.org/) can be set up to export in BibTex format, and help you keep an organized collection of PDFs.
 
 ## Collaboration with GitHub
 
