@@ -9,6 +9,7 @@ If you aren't low on storage and just want the easiest setup, go with the full d
 ## Windows
 
 [MiKTeX](https://miktex.org/)
+
 [TeX Live](https://www.tug.org/texlive/)
 
 ## Mac
