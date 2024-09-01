@@ -1,10 +1,10 @@
 ## Git basics
 
-# Setup
+### Setup
 
 
 
-# Use
+### Use
 
 When you start working, do a `git pull` to fetch the current state of the repository. 
 If there's a conflict with any local changes you've made, git will warn you to merge the changes first. 
