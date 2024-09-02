@@ -20,22 +20,22 @@ It has a lot of benefits over other word processing software:
 ### Editors
 
 [Overleaf](https://www.overleaf.com/)
-- Easy to get started
-- Requires a free account
-- Limited to one collaborator with free accounts
-- Not very customizable
+- Easy to get started.
+- Requires a free account.
+- Limited to one collaborator with free accounts.
+- Not very customizable.
 
 [TeXstudio](https://www.texstudio.org/)
-- Includes some nice features like code completion
+- Includes some nice features like code completion. 
 
 [Visual Studio Code (vscode)](https://code.visualstudio.com/)
-- Very customizable and extensible
-- Requires a couple of plugins and a little bit of setup
-- Work on LaTeX and other code (like Python) in the same editor
+- Very customizable and extensible.
+- Requires a couple of plugins and a little bit of setup.
+- Work on LaTeX and other code (like Python) in the same editor, with a consistent user interface and keyboard shortcuts. 
 
 [neovim](https://neovim.io/)
-- The hardest to get started with
-- After a learning curve, it can be the fastest editor
+- The hardest to get started with.
+- After a learning curve, it can be the fastest editor.
 
 ## Citation Management
 
