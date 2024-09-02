@@ -31,7 +31,7 @@ It has a lot of benefits over other word processing software:
 [Visual Studio Code (vscode)](https://code.visualstudio.com/)
 - Very customizable and extensible.
 - Requires a couple of plugins and a little bit of setup.
-- Work on LaTeX and other code (like Python) in the same editor, with a consistent user interface and keyboard shortcuts. 
+- Work on LaTeX and other code (like Python) in different tabs of the same editor, with a consistent user interface and keyboard shortcuts.
 
 [neovim](https://neovim.io/)
 - The hardest to get started with.
