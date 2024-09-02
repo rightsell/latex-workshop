@@ -55,4 +55,4 @@ The following are resources I learned from and used to prepare this workshop.
 
 [Overleaf documentation](https://www.overleaf.com/learn)
 
-
+[A git quickstart guide for LaTeX users](https://www.math.cmu.edu/~gautam/sj/blog/20130929-git-quickstart.html)
