@@ -8,6 +8,8 @@ Option 2 will give you a minimal setup without taking up much storage, but the d
 
 If you aren't low on storage and just want the easiest setup, go with the full distribution. 
 
+Be sure to occasionally update through your package manager to get the latest packages and bugfixes, at least every month or so.
+
 ## Windows
 
 [MiKTeX](https://miktex.org/)
@@ -20,5 +22,5 @@ If you aren't low on storage and just want the easiest setup, go with the full d
 
 ## Linux
 
-Use your distribution's package manager, or [Tex Live](https://www.tug.org/texlive/)
+Use your distribution's package manager to install texlive packages, or use the installer from the [Tex Live website](https://www.tug.org/texlive/) to get started, and use the command `tlmgr` to install and update LaTeX packages.
 
