@@ -7,6 +7,8 @@
 There is an optional subscription to sync your library between computers.
 Despite Zotero's insistence otherwise, I've had no issues keeping my library in sync using [Syncthing](https://syncthing.net/), and [Dropbox](https://www.dropbox.com/) or other cloud synchronization software should work similarly. 
 
+[Better BibTeX](https://retorque.re/zotero-better-bibtex) is a useful plugin for Zotero that provides better handling of citation keys and more customization for exporting to BibTeX.
+
 ## EZproxy
 
 [EZproxy](https://en.wikipedia.org/wiki/EZproxy) makes it easier to access subscription items from off campus directly from journal websites, rather than searching through the university library website.
