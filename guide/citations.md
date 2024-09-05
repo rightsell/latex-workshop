@@ -9,8 +9,8 @@ There is an optional free account to sync your library and files, with limited s
 The Zotero developers explain why syncing the library database itself is dangerous.
 The easiest workaround is to use the free account to sync the library only, and move/symlink your attachment folder to a sync folder (using [Syncthing](https://syncthing.net/) or [Dropbox](https://www.dropbox.com/) for example).
 I found it easiest to keep my entire Zotero folder in sync with Syncthing and simply exclude `*.sqlite` files from syncing.
-With this method, the Zotero account sync handles the actual library database, but does not sync the PDFs, which is handled by Syncthing.
-This also allows for things like custom styles to be kept in sync, and avoids the danger of corrupting the Zotero databse.
+With this method, the Zotero account sync handles the actual library database, but does not sync the PDFs, which is handled by Syncthing or Dropbox etc.
+This also allows for things like custom styles to be kept in sync, and avoids the danger of corrupting the Zotero database.
 
 [Better BibTeX](https://retorque.re/zotero-better-bibtex) is a useful plugin for Zotero that provides better handling of citation keys and more customization for exporting to BibTeX.
 
