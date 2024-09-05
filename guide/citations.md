@@ -4,8 +4,13 @@
 
 [Zotero](https://www.zotero.org/) is a free and open-source program that makes it easy to keep all of your references organized, store full-text PDFs, and generate citation entries. It's available for Windows, Mac, and Linux.
 
-There is an optional subscription to sync your library between computers.
-Despite Zotero's insistence otherwise, I've had no issues keeping my library in sync using [Syncthing](https://syncthing.net/), and [Dropbox](https://www.dropbox.com/) or other cloud synchronization software should work similarly. 
+There is an optional free account to sync your library and files, with limited storage. If you need more space for attached files (full text) PDFs, you can purchase a storage plan, or with a little bit of setup you can use your favorite file sync program.
+
+The Zoetero developers explain why syncing the library database itself is dangerous. 
+The easiest workaround is to use the free account to sync the library only, and move/symlink your attachment folder to a sync folder (using Syncthing or Dropbox for example). 
+I found it easiest to keep my entire Zotero folder in sync with Syncthing and simply exclude *.sqlite files from syncing. 
+With this method, the Zotero account sync handles the actual library database, but does not sync the PDFs, which is handled by Syncthing. 
+This also allows for things like custom styles to be kept in sync, and avoids the danger of corrupting the Zotero databse. 
 
 [Better BibTeX](https://retorque.re/zotero-better-bibtex) is a useful plugin for Zotero that provides better handling of citation keys and more customization for exporting to BibTeX.
 
