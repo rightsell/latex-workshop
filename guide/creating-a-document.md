@@ -15,6 +15,9 @@ This is the text that will appear in the compiled document.
 
 ## Compiling the PDF
 
+There are several compilers to choose from, but in general `latexmk` is a good option. You may need to install it using your LaTeX package manager (tlmgr or MikTeX).
+To use it, either go to the options in your editor and check what compiler is set, or open a terminal in the folder of your .tex file and run `latexmk -pdf document.tex`, and you should get a file named document.pdf.
+
 ## Loading a document style and packages
 
 ## Images
