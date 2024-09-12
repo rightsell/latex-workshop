@@ -23,6 +23,10 @@ To clean these files, simply run `latexmk -c`. Be careful to use a lowercase c, 
 
 ## Loading a document style and packages
 
+In the preamble of the document, packages are loaded with `\usepackage{packagename}`, or if the package has options you wish to set, `\usepackage[options]{packagename}`. Options are comma-separated.
+
+For example, the `\documentclass{}` command has options that can be set for font size and paper size, among others, by including something like [12pt, letterpaper], i.e. `\documentclass[12pt, letterpaper{article}`.
+
 ## Images
 
 ## Tables
