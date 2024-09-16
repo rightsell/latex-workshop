@@ -29,6 +29,22 @@ For example, the `\documentclass{}` command has options that can be set for font
 
 ## Images
 
+First, load the graphicx package by adding `\usepackage{graphicx}` in your preamble.
+
+```
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.8\textwidth]{figure_filename}
+	\caption{An example figure. \label{fig:example}}
+\end{figure}
+```
+
+This example uses the figure environment to encapsulate the figure itself and a caption.
+The `[h]` option tells LaTeX to try to position the figure as close as possible to its location in the source code, with some leeway to preserve the flow of the document.
+Using `\centering` will center the figure and caption within the text column, rather than justifying it to the left side of the page.
+Including `\label{fig:example}` will allow you to reference this figure in the text later on by typing `Figure~\ref{fig:example}` which will be replaced with 'Figure 1' in the compiled document.
+The tilde (~) between the word Figure and the \ref command is to insert a non-breaking space, ensuring that the word Figure and the figure number will be kept together regardless of line and page breaks. 
+
 ## Tables
 
 ## References
