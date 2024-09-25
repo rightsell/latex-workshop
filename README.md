@@ -1,5 +1,7 @@
 # latex-workshop
 
+Start [here](guide/installing-latex.md) for the step-by-step guide.
+
 ## Overview
 
 - What is LaTeX and why do we want to use it?
