@@ -15,6 +15,12 @@ There are also a variety of [graphical user interfaces](https://git-scm.com/down
 For Windows, Mac, and Linux, there's [LazyGit](https://github.com/jesseduffield/lazygit), which is a very fast and easy to use terminal frontend for Git.
 Usage is much simpler than the Git terminal commands.
 
+## Authenticating
+
+To push to your repository from the command-line client, you'll need to either setup a [personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) or use [ssh keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+With ssh keys you can use ssh-agent or the keychain in MacOS to store your credentials so that you only need to enter your password once after logging in to your computer.
+If using access tokens, you can use the [git credential storage](https://git-scm.com/docs/git-credential-store) feature to simplify things.
+
 ## Use
 
 When you start working, do a `git pull` to fetch the current state of the repository. 
