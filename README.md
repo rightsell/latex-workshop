@@ -1,6 +1,6 @@
 # latex-workshop
 
-Start [here](guide/installing-latex.md) for the step-by-step guide.
+## Start [here](guide/installing-latex.md) for the step-by-step guide.
 
 ## Overview
 
