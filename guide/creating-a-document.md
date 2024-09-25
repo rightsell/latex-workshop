@@ -47,9 +47,26 @@ Using `\centering` will center the figure and caption within the text column, ra
 
 Including `\label{fig:example}` will allow you to reference this figure in the text later on by typing `Figure~\ref{fig:example}` which will be replaced with 'Figure 1' in the compiled document.
 
-The tilde (~) between the word Figure and the \ref command is to insert a non-breaking space, ensuring that the word Figure and the figure number will be kept together regardless of line and page breaks. 
+The tilde (~) between the word Figure and the \ref command is to insert a non-breaking space, ensuring that the word Figure and the figure number will be kept together regardless of line and page breaks.
 
 ## Tables
 
+Tables are created in the `tabular` environment as follows: 
+
+```
+\begin{tabular}{l c r}
+  item 1 & item 2 & item 3 \\
+  item 4 & item 5 & item 6 \\
+  item 7 & item 8 & item 9
+\end{tabular}
+```
+where the {l c r} options for the tabular environment are used to specify both the number of columns and also denote whether each column should be justified left, centered, or justified right.
+Each item in a row is separated by the & symbols, and each row is ended with \\, the new line command.
+
+## Equations
+
+
+
 ## References
+
 
