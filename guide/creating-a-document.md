@@ -102,3 +102,7 @@ For example:
 ```
 
 To cite this in your text, you would simply type `\cite{maiman1960}`, and the in-text citation will be formatted according to the bibliography style you're using, typically set by the journal's document class.
+
+Multiple inline citations can be added by simply separating the citation keys with commas in the cite command: `\cite{maiman1960, otherauthor2008}`.
+
+As you write and cite more articles, LaTeX will make sure that they are always numbered correctly so when you add a reference earlier in the document, you never need to worry about renumbering anything.
