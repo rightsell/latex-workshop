@@ -4,6 +4,13 @@
 
 
 
+## User interfaces
+
+For Windows and Mac there's [GitHub Desktop](https://desktop.github.com/download/). 
+
+For Windows, Mac, and Linux, there's [LazyGit](https://github.com/jesseduffield/lazygit), which is a very fast and easy to use terminal frontend for Git. 
+Usage is much simpler than the Git terminal commands. 
+
 ## Use
 
 When you start working, do a `git pull` to fetch the current state of the repository. 
@@ -17,10 +24,3 @@ To send your changes, simply run `git push`.
 ### Merging conflicts
 
 
-
-## User interfaces
-
-For Windows and Mac there's [GitHub Desktop](https://desktop.github.com/download/). 
-
-For Windows, Mac, and Linux, there's [LazyGit](https://github.com/jesseduffield/lazygit), which is a very fast and easy to use terminal frontend for Git. 
-Usage is much simpler than the Git terminal commands. 
