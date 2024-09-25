@@ -21,3 +21,5 @@ This also allows for things like custom styles to be kept in sync, and avoids th
 [EZproxy](https://en.wikipedia.org/wiki/EZproxy) makes it easier to access subscription items from off campus directly from journal websites, rather than searching through the university library website.
 
 There are browser extensions for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/firefox-ezproxy-redirect/) and [Chrome](https://chromewebstore.google.com/detail/ezproxy-redirect/gfhnhcbpnnnlefhobdnmhenofhfnnfhi?hl=en&pli=1) that add a button to your browser which will take you to your university library's EZproxy redirect straight from a journal's web page.
+
+## [Next - Working with Git](working-with-git.md)
