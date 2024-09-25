@@ -61,12 +61,44 @@ Tables are created in the `tabular` environment as follows:
 \end{tabular}
 ```
 where the {l c r} options for the tabular environment are used to specify both the number of columns and also denote whether each column should be justified left, centered, or justified right.
-Each item in a row is separated by the & symbols, and each row is ended with \\, the new line command.
+Each item in a row is separated by the & symbols, and each row is ended with `\\`, the new line command.
 
 ## Equations
 
+Equations can be placed inline in text by surrounding them with `$`, which works well for single-line equations with no fractions, e.g. `$y = mx + b$`.
 
+For equations that should be numbered in the text, use the equation environment:
+```
+\begin{equation}
+  \gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}
+\end{equation}
+```
 
 ## References
 
+Create a file in the same folder and with the same name as your .tex file, but with the .bib extension.
+In this file, you can paste the BibTeX output you get from the library or journal website for the article you wish to cite.
 
+At the end of your LaTeX document, before the `\end{document}` command, you will place a line with `\bibliography{file.bib}` with your .bib file's name there.
+
+The first part of each BibTeX block is the citation key, which is how you'll refer to it in the source of your LaTeX document.
+
+For example:
+```
+@article{maiman1960,
+  title = {Stimulated Optical Radiation in Ruby},
+  author = {Maiman, T. H.},
+  year = {1960},
+  month = aug,
+  journal = {Nature},
+  volume = {187},
+  number = {4736},
+  pages = {493--494},
+  publisher = {Nature Publishing Group},
+  issn = {1476-4687},
+  doi = {10.1038/187493a0},
+  langid = {english},
+}
+```
+
+To cite this in your text, you would simply type `\cite{maiman1960}`, and the in-text citation will be formatted according to the bibliography style you're using, typically set by the journal's document class.
