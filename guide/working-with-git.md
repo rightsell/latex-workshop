@@ -25,6 +25,10 @@ This will prompt you for a commit message. The subject should be a short descrip
 
 To send your changes, simply run `git push`.
 
+### How to use pull requests to collaborate
+
+Assume the first author has ownership of the repository and wants to review and control which changes are merged. Rather than have each co-author push directly to the main branch, each co-author should instead pull the latest version of the repository, and create a new branch. Once changes are made, a pull request is then submitted to the main branch. The repository owner (first author) will get a notification, and can then review the changes and differences, and determine which to merge.
+
 ### Merging conflicts
 
 
