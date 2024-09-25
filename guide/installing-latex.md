@@ -24,3 +24,5 @@ Be sure to occasionally update through your package manager to get the latest pa
 
 Use your distribution's package manager to install texlive packages, or use the installer from the [Tex Live website](https://www.tug.org/texlive/) to get started, and use the command `tlmgr` to install and update LaTeX packages.
 
+
+[Next - Creating a Document](guide/creating-a-document.md)
