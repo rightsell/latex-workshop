@@ -41,4 +41,20 @@ Once the co-author has made more changes and wants to submit them to the main br
 
 ### Merging conflicts
 
+When a pull results in some conflicts to your local version that must be merged manually (i.e. the same line has been changed locally and remotely with different content), you will be warned by git that the remote has conflicts with your local copy.
+In this case you can do a `git merge --no-ff`, which will pull the remote changes while preserving your local changes, placing indicators in the file so that you can manually fix the conflicts.
 
+You will see something that looks like this after doing a `git merge --no-ff` which has conflicts that need to be merged:
+```
+<<<<<<< HEAD
+This is the line that is going to have conflicts. This the change made locally.
+=======
+This is the line that is going to have conflicts. This is change made remotely.
+>>>>>>> refs/remotes/origin/main
+```
+
+Everything at the top between the `<<<<<<<` and `=======` is the 'head' version which is your current branch with your locally made changes.
+Underneath that, between the `=======` and `>>>>>>>` are the changes that were made in the repository (remote) that conflicted with your changes.
+To resolve this, all you need to do is delete one or the other, or manually edit the line if you want to incorporate part of the remote change with some of your local change.
+
+Note that after doing this there will be a conflict should you try to push to the main repository, so you should submit it as a pull request from your personal branch to the main branch. When the pull request is received, someone with control of the main branch of the repository (such as the first author) will then be shown the differences and just as you merged conflicts in your branch, they will have the same options for resolving any conflicts in your pull request.
