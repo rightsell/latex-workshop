@@ -2,6 +2,8 @@
 
 ## Start [here](guide/installing-latex.md) for the step-by-step guide.
 
+[How to Contribute](guide/contributing.md)
+
 ## Overview
 
 - What is LaTeX and why do we want to use it?
