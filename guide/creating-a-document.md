@@ -67,6 +67,8 @@ Each item in a row is separated by the & symbols, and each row is ended with `\\
 
 Tables can quickly get messy and difficult to read, but fortunately there websites, such as [https://tablesgenerator.com/](https://tablesgenerator.com/latex_tables), that you can use to visually build a table and get the LaTeX code to copy to into your document.
 
+If you prefer an offline solution, there is the package [Excel2LaTeX](https://ctan.org/pkg/excel2latex) that can be used to turn a table from Excel into LaTeX, even carrying over cell colors and font effects.
+
 ## Equations
 
 Equations can be placed inline in text by surrounding them with `$`, which works well for single-line equations with no fractions, e.g. `$y = mx + b$`.
