@@ -45,6 +45,8 @@ The `[h]` option tells LaTeX to try to position the figure as close as possible 
 
 Using `\centering` will center the figure and caption within the text column, rather than justifying it to the left side of the page.
 
+The `[width=0.8\textwidth]` option for the `\includegraphics` command sets the width of the figure to be 0.8 times the `\textwidth`, meaning 80% of the width of the text column the figure appears in.
+
 Including `\label{fig:example}` will allow you to reference this figure in the text later on by typing `Figure~\ref{fig:example}` which will be replaced with 'Figure 1' in the compiled document.
 
 The tilde (~) between the word Figure and the \ref command is to insert a non-breaking space, ensuring that the word Figure and the figure number will be kept together regardless of line and page breaks.
