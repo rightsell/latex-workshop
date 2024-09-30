@@ -65,6 +65,8 @@ Tables are created in the `tabular` environment as follows:
 where the {l c r} options for the tabular environment are used to specify both the number of columns and also denote whether each column should be justified left, centered, or justified right.
 Each item in a row is separated by the & symbols, and each row is ended with `\\`, the new line command.
 
+Tables can quickly get messy and difficult to read, but fortunately there websites, such as [https://tablesgenerator.com/](https://tablesgenerator.com/latex_tables), that you can use to visually build a table and get the LaTeX code to copy to into your document.
+
 ## Equations
 
 Equations can be placed inline in text by surrounding them with `$`, which works well for single-line equations with no fractions, e.g. `$y = mx + b$`.
