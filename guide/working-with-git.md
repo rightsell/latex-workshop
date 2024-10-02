@@ -57,4 +57,14 @@ Everything at the top between the `<<<<<<<` and `=======` is the 'head' version 
 Underneath that, between the `=======` and `>>>>>>>` are the changes that were made in the repository (remote) that conflicted with your changes.
 To resolve this, all you need to do is delete one or the other, or manually edit the line if you want to incorporate part of the remote change with some of your local change.
 
-Note that after doing this there will be a conflict should you try to push to the main repository, so you should submit it as a pull request from your personal branch to the main branch. When the pull request is received, someone with control of the main branch of the repository (such as the first author) will then be shown the differences and just as you merged conflicts in your branch, they will have the same options for resolving any conflicts in your pull request.
+Note that after doing this there will be a conflict should you try to push to the main repository, so you should submit it as a pull request from your personal branch to the main branch. 
+When the pull request is received, someone with control of the main branch of the repository (such as the first author) will then be shown the differences and just as you merged conflicts in your branch, they will have the same options for resolving any conflicts in your pull request.
+
+## Basic Workflow
+
+1. **Pull** the latest changes from the remote repository.
+2. **Checkout** your personal branch.
+3. **Save** your changes.
+4. **Commit** your changes.
+5. **Push** your changes to the remote.
+6. **Pull Request** from your branch to the main branch.
