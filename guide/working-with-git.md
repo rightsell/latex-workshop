@@ -35,7 +35,7 @@ To send your changes, simply run `git push`.
 
 Assume the first author has ownership of the repository and wants to review and control which changes are merged. Rather than have each co-author push directly to the main branch, each co-author should instead pull the latest version of the repository, and create a new branch. Once changes are made, a pull request is then submitted to the main branch. The repository owner (first author) will get a notification, and can then review the changes and differences, and determine which to merge.
 
-Each co-author can keep working on their own branch, and when they want to update their branch with the latest changes from the main branch, they simply need to make sure they have their branch checked out, and then do a `git rebase main`.
+Each co-author can keep working on their own branch, and when they want to update their branch with the latest changes from the remote main branch, they simply need to make sure they have their branch checked out first, and then do a `git rebase main`.
 If there are any conflicts with changes made on the co-author branch, they can be merged by the co-author into their own branch at this time.
 Once the co-author has made more changes and wants to submit them to the main branch, they submit a pull request which can then be approved, rejected, or merged in case of conflicts.
 
@@ -62,7 +62,7 @@ When the pull request is received, someone with control of the main branch of th
 
 ## Basic Workflow
 
-1. **Pull** the latest changes from the remote repository.
+1. **Pull** the latest changes from the remote repository, and **rebase** your branch from the main branch.
 2. **Checkout** your personal branch.
 3. **Save** your changes.
 4. **Commit** your changes.
