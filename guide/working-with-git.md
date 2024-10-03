@@ -62,7 +62,8 @@ When the pull request is received, someone with control of the main branch of th
 
 ## Basic Workflow
 
-1. **Pull** the latest changes from the remote repository, and **rebase** your branch from the main branch.
+1. **Pull** the latest changes from the remote repository.
+2. **Rebase** your personal branch from the main branch.
 2. **Checkout** your personal branch.
 3. **Save** your changes.
 4. **Commit** your changes.
