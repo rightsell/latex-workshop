@@ -32,14 +32,20 @@ It has a lot of benefits over other word processing software:
 [TeXstudio](https://www.texstudio.org/)
 - Includes some nice features like code completion. 
 
-[Visual Studio Code (vscode)](https://code.visualstudio.com/)
+[Visual Studio Code (VSCode)](https://code.visualstudio.com/)
 - Very customizable and extensible.
 - Requires a couple of plugins and a little bit of setup.
 - Work on LaTeX and other code (like Python) in different tabs of the same editor, with a consistent user interface and keyboard shortcuts.
 
-[neovim](https://neovim.io/)
+[WebLaTeX](https://github.com/sanjib-sen/WebLaTex)
+- A web-based VSCode editor that runs in a GitHub codespace.
+- Supports live collaboration and GitHub integration.
+- A nice free alternative to Overleaf.
+
+[Neovim](https://neovim.io/)
 - The hardest to get started with.
 - After a learning curve, it can be the fastest editor.
+- Very lightweight and has a wide variety of plugins.
 
 ## Citation Management
 
