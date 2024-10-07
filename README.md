@@ -1,6 +1,6 @@
 # latex-workshop
 
-## Start [here](guide/installing-latex.md) for the step-by-step guide.
+## :rocket: Start [here](guide/installing-latex.md) for the step-by-step guide.
 
 [How to Contribute](guide/contributing.md)
 
