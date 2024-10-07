@@ -4,6 +4,8 @@
 
 [How to Contribute](guide/contributing.md)
 
+[Roadmap](roadmap.md)
+
 ## Overview
 
 - What is LaTeX and why do we want to use it?
