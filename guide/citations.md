@@ -6,7 +6,14 @@
 
 [Better BibTeX](https://retorque.re/zotero-better-bibtex) is a useful plugin for Zotero that provides better handling of citation keys and more customization for exporting to BibTeX.
 
-### Syncing
+In the Better BibTeX settings you can customize the generated citation keys to suit your style.
+For example, to produce citation keys that contain the first author's last name, year of publication, and a single letter identifier at the end to avoid clashes:
+```
+auth.lower + year + infix(format="%(a)s", start=1)
+```
+This will result in a citation key like 'jones2022a' or 'jones2022b' when there are two articles by Jones in the year 2022.
+
+### Syncing Zotero data
 
 There is an optional free account to sync your library and files, with limited storage. If you need more space for attached files (full text) PDFs, you can purchase a storage plan, or with a little bit of setup you can use your favorite file sync program.
 
