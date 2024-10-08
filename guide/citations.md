@@ -13,7 +13,7 @@ For example, to produce citation keys that contain the first author's last name,
 ```
 auth.lower + year + infix(format="%(a)s", start=1)
 ```
-This will result in a citation key like `jones2022a` or `jones2022b` when there are two articles by Jones in the year 2022.
+This will result in a citation key such as `jones2022a` or `jones2022b` when there are two articles by Jones in the year 2022.
 
 You may also want to trim down some of the extraneous information that Better BibTeX adds to the BibTeX and BibLaTeX citation entires by default. Having the extra data doesn't cause a problem because it won't show up in your compiled document if the bibliography style doesn't use it, but it can be cumbersome scrolling through unneeded information like abstracts.
 In the setting "Fields to omit from export" you may want to include something like:
