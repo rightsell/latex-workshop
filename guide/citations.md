@@ -4,6 +4,8 @@
 
 [Zotero](https://www.zotero.org/) is a free and open-source program that makes it easy to keep all of your references organized, store full-text PDFs, and generate citation entries. It's available for Windows, Mac, and Linux.
 
+Zotero has [connectors](https://www.zotero.org/download/connectors), which are browser plugins that give you a button to click when viewing a journal article, and will import the reference into your Zotero library, and (usually) download and attach the full PDF if available.
+
 [Better BibTeX](https://retorque.re/zotero-better-bibtex) is a useful plugin for Zotero that provides better handling of citation keys and more customization for exporting to BibTeX.
 
 In the Better BibTeX settings you can customize the generated citation keys to suit your style.
