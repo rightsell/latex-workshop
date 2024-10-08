@@ -13,6 +13,12 @@ auth.lower + year + infix(format="%(a)s", start=1)
 ```
 This will result in a citation key like 'jones2022a' or 'jones2022b' when there are two articles by Jones in the year 2022.
 
+You may also want to trim down some of the extraneous information that Better BibTeX adds to the BibTeX and BibLaTeX citation entires by default. Having the extra data doesn't cause a problem because it won't show up in your compiled document if the bibliography style doesn't use it, but it can be cumbersome scrolling through unneeded information like abstracts.
+In the setting "Fields to omit from export" you may want to include something like:
+```
+rank, keywords, file, abstract, urldate
+```
+
 ### Syncing Zotero data
 
 There is an optional free account to sync your library and files, with limited storage. If you need more space for attached files (full text) PDFs, you can purchase a storage plan, or with a little bit of setup you can use your favorite file sync program.
