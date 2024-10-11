@@ -43,6 +43,7 @@ It has a lot of benefits over other word processing software:
 - A web-based VSCode editor that runs in a GitHub codespace.
 - Supports live collaboration and GitHub integration.
 - A nice free alternative to Overleaf.
+- Codespaces are limited to 60 hours per month for the free plan.
 
 [Neovim](https://neovim.io/)
 - The hardest to get started with.
