@@ -5,3 +5,4 @@
 - Add recommended PDF viewers
 - Add snippets and general recommendations for a variety of disciplines
 - Add usage information about the hyperref package
+- Add guide to using SSH keys or access tokens with GitHub
