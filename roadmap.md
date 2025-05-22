@@ -6,3 +6,5 @@
 - Add snippets and general recommendations for a variety of disciplines
 - Add usage information about the hyperref package
 - Add guide to using SSH keys or access tokens with GitHub
+- Add full setup for VSCode and extensions
+- Add spellcheck information for VSCode
