@@ -27,6 +27,16 @@ In the preamble of the document, packages are loaded with `\usepackage{packagena
 
 For example, the `\documentclass{}` command has options that can be set for font size and paper size, among others, by including something like [12pt, letterpaper], i.e. `\documentclass[12pt, letterpaper]{article}`.
 
+## Setting the title and author
+
+Before your `\begin{document}` command, use the `\title{}` command with your document title in the braces.
+
+To list authors, add a line with `\author{Author Name}` for each author.
+
+Just after your `\begin{document}` command, add the `\maketitle` command. Your document class will handle the font size and formatting for the title and authors list. 
+
+Most document classes will insert the current date as part of the title block. To avoid the date being inserted altogether, you can include `\date{}` above the `\being{document}` command, with nothing in the brackets.
+
 ## Images
 
 First, load the graphicx package by adding `\usepackage{graphicx}` in your preamble.
