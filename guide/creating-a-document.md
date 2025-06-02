@@ -27,6 +27,8 @@ In the preamble of the document, packages are loaded with `\usepackage{packagena
 
 For example, the `\documentclass{}` command has options that can be set for font size and paper size, among others, by including something like [12pt, letterpaper], i.e. `\documentclass[12pt, letterpaper]{article}`.
 
+You may also want to set the margins of your paper smaller than the default LaTeX uses, in which case you can add `\usepackage[letterpaper, margin=1in]{geometry}` do your preamble as well.
+
 ## Setting the title and author
 
 Before your `\begin{document}` command, use the `\title{}` command with your document title in the braces.
